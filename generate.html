@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Check your Akan Name</title>
 </head>
 <body>
     <div class="container">
         <div class="inputs-wrapper">
-            <input type="date" id="date-input">
-            <button>Calculate</button>
+            <form name="calculate">
+                <input type="date" id="date-input">
+                <!-- <label for="male">male</label>                 -->
+                <input type="radio" name="gender" id="male" value="male">Male
+                <!-- <label for="female">Female</label> -->
+                <input type="radio"name="gender" id ="female" value="female">Female
+                <button class="generate">Submit</button>
+
+            </form>
+            
 
 
         </div>
