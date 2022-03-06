@@ -1,6 +1,6 @@
 //array
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-let femaleNmaes = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 function checkDay(){
     let DD =document.getElementById("day").value 
@@ -12,11 +12,18 @@ function checkDay(){
     d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
     
     if(DD <= 0 || DD > 31){
-        alert("invalid date!")
+        alert("invalid date!")               
 
-        else if((m<= 0) || (m > 12)  )
-        alert("Inavlid month")
+    }
+    else if((MM<= 0) || (MM > 12) ){
+        alert("Invalid month")
 
+    }
+    if(gender === "male"){
+        document.getElementById("display").innerHTML ="Your name is " + maleNames(d)
+    }
+    else if(gender === "female"){
+        document.getElementById("display").innerHTML ="Your name is " + femaleNames(d)
     }
     
     
