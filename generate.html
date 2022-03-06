@@ -11,12 +11,14 @@
     <div class="container">
         <div class="inputs-wrapper">
             <form name="calculate">
-                <input type="date" id="date-input">
+                <input type="text" id="day" name="day">
+                <input type="text" id="month" name="month">
+                <input type="text" id="year" name="year">
                 <!-- <label for="male">male</label>                 -->
                 <input type="radio" name="gender" id="male" value="male">Male
                 <!-- <label for="female">Female</label> -->
                 <input type="radio"name="gender" id ="female" value="female">Female
-                <button class="generate">Submit</button>
+                <button id="generate" onclick="checkDay()">Submit</button>
 
             </form>
             
@@ -28,6 +30,6 @@
 
         </form>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
