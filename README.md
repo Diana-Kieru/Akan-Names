@@ -1,6 +1,6 @@
-# Akan-Names
-#### {Brief description of application}, {Date of current version}
-#### By Diana Kieru
+## Akan-Names
+
+## By Diana Kieru
 <a href ="linkedin.com/in/diana-kieru-a71770227">LinkedIn</a>
 
 ## Description
@@ -14,6 +14,13 @@ The code does not have any bugs but incase you get any challenges while accessin
 HTML
 CSS
 Javascript
-### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+## License
+Copyright (c) 2022 Diana
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
