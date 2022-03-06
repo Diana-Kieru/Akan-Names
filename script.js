@@ -20,10 +20,10 @@ function checkDay(){
 
     }
     if(gender == "male"){
-        document.getElementById("generate").innerHTML ="Your name is " + maleNames(d)
+        document.getElementById("result").innerHTML ="Your name is " + maleNames[d]
     }
     else if(gender == "female"){
-        document.getElementById("generate").innerHTML ="Your name is " + femaleNames(d)
+        document.getElementById("result").innerHTML ="Your name is " + femaleNames[d]
     }
     
     
