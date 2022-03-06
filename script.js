@@ -13,6 +13,10 @@ function checkDay(){
     
     if(DD <= 0 || DD > 31){
         alert("invalid date!")
+
+        else if((m<= 0) || (m > 12)  )
+        alert("Inavlid month")
+
     }
     
     
