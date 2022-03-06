@@ -9,7 +9,7 @@ function checkDay(){
     let CC =date.substring(0,2)
     let YY =date.substring(2)
     let gender =document.calculate.gender.value
-    d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
+   let d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
     
     if(DD <= 0 || DD > 31){
         alert("invalid date!")               
@@ -19,11 +19,11 @@ function checkDay(){
         alert("Invalid month")
 
     }
-    if(gender === "male"){
-        document.getElementById("display").innerHTML ="Your name is " + maleNames(d)
+    if(gender == "male"){
+        document.getElementById("generate").innerHTML ="Your name is " + maleNames(d)
     }
-    else if(gender === "female"){
-        document.getElementById("display").innerHTML ="Your name is " + femaleNames(d)
+    else if(gender == "female"){
+        document.getElementById("generate").innerHTML ="Your name is " + femaleNames(d)
     }
     
     
