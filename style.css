@@ -24,7 +24,7 @@
   position: relative;
   display: flex;
   margin-top: -5%;
-  color: black;
+  /* color: black; */
   padding: 100px 20px;
   font-size: large;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
@@ -74,12 +74,14 @@
   /* padding: 30px 25px; */
   border-radius: 8px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
 }
 #date-input,
 button{
   height: 50px;
-  background-color: #ffffff;
-  color: #080808;
+  /* background-color: #ffffff; */
+  /* color: #080808; */
   font-weight: 500;
   border-radius: 5px;
 }
@@ -94,14 +96,35 @@ button{
   width: 30%;
   float: right;
 }
-form{
-  /* display: flex; */
-  /* flex-direction: column; */
+/* form{
+  display: flex;
+  flex-direction: column;
 
+} */
+.date{
+  display: flex;
+  border: 2px solid black;
+  width: 60%;
+  margin: 2%;
+  position: relative;
+  left: 20%;  
 }
 
+#generate{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 40%;
+  left: 30%;
+  padding-top: 2.5%;
+}
 
-
+/* .gender{
+  display: block;
+} */
 
 
 
